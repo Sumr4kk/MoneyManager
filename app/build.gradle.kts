@@ -6,7 +6,7 @@ plugins {
 android {
     namespace = "com.example.moneymanager"
     compileSdk {
-        version = release(33)
+        version = release(36)
     }
 
     defaultConfig {

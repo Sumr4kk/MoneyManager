@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             MoneyManagerTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "User",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = "Привет $name! Я помогу с менеджментом твоего кошелька ;)",
         modifier = modifier
     )
 }
