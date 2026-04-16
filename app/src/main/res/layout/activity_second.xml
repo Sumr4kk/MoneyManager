@@ -7,9 +7,34 @@
     android:padding="20dp">
 
     <TextView
-        android:id="@+id/displayText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24sp"/>
+        android:text="Полученный текст:"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewReceived"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:padding="15dp"
+        android:background="#e0e0e0"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите текст для возврата"
+        android:padding="15dp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вернуть результат в MainActivity"
+        android:layout_marginTop="20dp"/>
 
 </LinearLayout>
