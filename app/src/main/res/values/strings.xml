@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MoneyManager</string>
+    <string name="Enter_text_for_send">Enter text for send</string>
 </resources>
